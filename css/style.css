@@ -264,3 +264,14 @@ ul {
     border-left: 2px solid aliceblue;
     height: 200px;
 }
+
+/** Sobre Nosotros **/
+
+.nosotros  {
+    display: block;
+    justify-content: center;
+}
+
+.nosotros p {
+    margin: 15px 10px 15px 10px;
+}
