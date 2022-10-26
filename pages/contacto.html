@@ -16,18 +16,54 @@
                 <div class="navegacion">
                     <a href="../index.html"><img src="../img/Logo.png" class="logo" alt="Logo" ></a>
                     <ul id="navbar">
-                        <li><a class="active" href="index.html">Categorías</a></li>
+                        <li><a class="active" href="#">Categorías</a></li>
                         <input type="search" placeholder="¡Hola! Busca tu producto aquí!" class="bar_search"><span>
                             <button type="submit" class="button_search"><i class="fa fa-search"></i></button>
                         </span>
                         <li> <a href="login-register.html">Mi Cuenta</a></li>
-                        <li><a href="cart.html">Mi Carrito <i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#">Mi Carrito <i class="fa fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </section>
         </header>
     </header>
     <main>
+
+        <section class="formulario-margin">
+            <h2>Contacto</h2>
+            <!-- Se que se ve medio feo, pero luego se verá mejor con grid-->
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contáctanos completando los siguientes datos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre" id="nombre" required>
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="number" placeholder="Tu Teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo </label>
+                            <input class="input-text" type="email" placeholder="Tu Correo" id="correo" required>
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text" id="mensaje"></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
+                    <div class="alinear-derecha flex">
+                        <input class="boton1 w-sm-100" type="submit" value="Enviar" >
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </section>
+
         <footer class="footer">
             <div class="container__footer">
                 <div class="box__footer">
@@ -52,6 +88,9 @@
                     <ul>
                         <li>
                             <a href="sobre-nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="./contacto.html">Contáctanos</a>
                         </li>
                         <li>
                             <a href="#">Código de ética</a>

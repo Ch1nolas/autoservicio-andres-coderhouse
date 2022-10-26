@@ -202,6 +202,52 @@ p {
     
 }
 
+/** Productos **/
+
+
+
+
+/** Formulario Contacto **/
+
+.formulario-margin {
+    padding-top: 20px;
+}
+.formulario{
+    background-color: #757575;
+    width: min( 600px, 100%); /**  Utiliza el valor más pequeño **/
+    margin: 5px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.formulario fieldset {
+    border: none;
+}
+.formulario legend {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #FFC107;
+}
+.contenedor-campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/** Sobre Nosotros **/
+
+.nosotros  {
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros p {
+    margin: 15px 10px 15px 10px;
+}
+
 /** Footer **/
 
 .footer{
@@ -265,13 +311,3 @@ ul {
     height: 200px;
 }
 
-/** Sobre Nosotros **/
-
-.nosotros  {
-    display: block;
-    justify-content: center;
-}
-
-.nosotros p {
-    margin: 15px 10px 15px 10px;
-}
